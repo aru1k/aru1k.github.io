@@ -1,7 +1,6 @@
 ---
 layout: post
 title: Display Bluetooth Battery Status On KDE Plasma
-published: false
 ---
 ![bluetooth-battery.png]({{site.baseurl}}/_posts/bluetooth-battery.png)
 
