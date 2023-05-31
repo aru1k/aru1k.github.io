@@ -2,7 +2,6 @@
 layout: post
 title: Display Bluetooth Battery Status On KDE Plasma
 ---
-![bluetooth-battery.png]({{site.baseurl}}/_posts/bluetooth-battery.png)
 
 KDE Plasma not showing bluetooth battery. And it's quite annoying when in the middle of work your bluetooth battery suddenly runs out. I experience it quite often.
 
