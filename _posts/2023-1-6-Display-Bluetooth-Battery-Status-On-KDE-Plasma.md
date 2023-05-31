@@ -5,10 +5,10 @@ published: false
 ---
 ![bluetooth-battery.png]({{site.baseurl}}/_posts/bluetooth-battery.png)
 
-	KDE Plasma not showing bluetooth battery. And it's quite annoying when in the middle of work your bluetooth battery suddenly runs out. I experience it quite often.
+KDE Plasma not showing bluetooth battery. And it's quite annoying when in the middle of work your bluetooth battery suddenly runs out. I experience it quite often.
 
-	Actually KDE Plasma has that feature but it's not enabled by default. This feature was introduced from KDE Plasma 5.15 Beta. Quoting from the [KDE official announcement](https://kde.org/announcements/plasma/5/5.14.90/):
+Actually KDE Plasma has that feature but it's not enabled by default. This feature was introduced from KDE Plasma 5.15 Beta. Quoting from the [KDE official announcement](https://kde.org/announcements/plasma/5/5.14.90/):
 
 > Bluetooth devices now show their battery status in the power widget. Note that this cutting-edge feature requires the latest versions of the upower and bluez packages.
 
-	I'm using KDE Plasma 5.27.5 for this guide. I think it will work if you have KDE Plasma 5.15 and above. Let's get to the guide. 
+I'm using KDE Plasma 5.27.5 for this guide. I think it will work if you have KDE Plasma 5.15 and above. Let's get to the guide. 
