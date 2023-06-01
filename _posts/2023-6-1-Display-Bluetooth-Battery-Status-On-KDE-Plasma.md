@@ -12,11 +12,8 @@ Actually KDE Plasma has that feature but it's not enabled by default. This featu
 
 I'm using KDE Plasma 5.27.5 for this guide. I think it will work if you have KDE Plasma 5.15 and above. Let's get to the guide.
 
-1. First activate the bluetooth experimental feature
-```sudo nano /etc/bluetooth/main.conf```
-Find "#Experimental = false", remove the # sign and change false to true. Save.
-2. Restart bluetooth.
-```sudo systemctl restart bluetooth```
+1. First activate the bluetooth experimental feature with ```sudo nano /etc/bluetooth/main.conf```. Find "#Experimental = false", remove the # sign and change false to true. Save.
+2. Restart bluetooth with ```sudo systemctl restart bluetooth```
 3. Connect the bluetooth device and you will see the bluetooth device battery in the power widget.
 
 That's all the guide. Hope that helps.
