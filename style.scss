@@ -19,6 +19,16 @@
   font-weight: 400;
   font-style: normal;
   font-display: swap;
+	font-feature-settings: "zero" on, "calt" on, "cv01" on;
+}
+
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/fMapleMono-Italic[wght]-VF.woff2') format('woff2');
+  font-weight: 400;
+  font-style: italic;
+  font-display: swap;
+	font-feature-settings: "zero" on, "calt" on, "cv01" on;
 }
 
 html {
@@ -39,9 +49,9 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: $helveticaNeue;
+  font-family: $maple;
   color: $white;
-  font-weight: bold;
+  font-weight: 800;
 
   line-height: 1.7;
   margin: 1em 0 15px;
@@ -202,7 +212,7 @@ img {
   margin: 0;
   color: $white;
   cursor: pointer;
-  font-family: $helveticaNeue;
+  font-family: $maple;
   font-weight: 300;
   font-size: 28px;
   letter-spacing: 1px;
@@ -221,7 +231,7 @@ img {
 nav {
   float: right;
   margin-top: 23px; // @TODO: Vertically middle align
-  font-family: $helveticaNeue;
+  font-family: $maple;
   font-size: 18px;
 
   @include mobile {
