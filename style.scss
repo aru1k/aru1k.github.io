@@ -35,7 +35,7 @@ html {
 
 body {
 	background: $darkerGray;
-  font: 18px/1.4 $maple;
+  font: 16px/1.4 $maple;
   color: $white;
 	line-height: 1.6;
 	font-feature-settings: "zero" on, "calt" on, "cv01" on;
@@ -63,22 +63,22 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 h1 {
-  font-size: 30px;
+  font-size: 28px;
   a {
     color: inherit;
   }
 }
 
 h2 {
-  font-size: 24px;
+  font-size: 22px;
 }
 
 h3 {
-  font-size: 20px;
+  font-size: 18px;
 }
 
 h4 {
-  font-size: 18px;
+  font-size: 16px;
   color: $white;
 }
 
@@ -221,7 +221,7 @@ img {
 .site-description {
   margin: -5px 0 0 0;
   color: $white;
-  font-size: 16px;
+  font-size: 14px;
 
   @include mobile {
     margin: 3px 0;
@@ -284,7 +284,7 @@ nav {
 
   .read-more {
     text-transform: uppercase;
-    font-size: 15px;
+    font-size: 14px;
   }
 }
 
