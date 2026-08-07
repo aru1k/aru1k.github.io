@@ -156,7 +156,7 @@ img {
 
 .masthead {
   padding: 20px 0;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
 
   @include mobile {
     text-align: center;
@@ -243,7 +243,7 @@ nav {
 
 .posts > .post {
   padding-bottom: 2em;
-  border-bottom: 1px solid $lightGray;
+  border-bottom: 1px solid $gray;
 }
 
 .posts > .post:last-child {
@@ -254,9 +254,9 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $lightGray;
+    border-left: 2px solid $blue;
     padding: 0.1em 1em;
-    color: $lightGray;
+    color: $white;
     font-size: 22px;
     font-style: italic;
   }
@@ -273,7 +273,7 @@ nav {
 
 .wrapper-footer {
   margin-top: 50px;
-  border-top: 1px solid $lightGray;
+  border-top: 1px solid $gray;
   border-bottom: 0px solid #ddd;
   background-color: $darkerGray;
 }
