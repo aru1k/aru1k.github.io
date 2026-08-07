@@ -13,13 +13,21 @@
 /* BASE RULES */
 /**************/
 
+@font-face {
+  font-family: 'Maple Mono';
+  src: url('/MapleMono-Italic[wght]-VF.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
 html {
   font-size: 100%;
 }
 
 body {
 	background: $darkerGray;
-  font: 18px/1.4 $helvetica;
+  font: 18px/1.4 $maple;
   color: $white;
 }
 
