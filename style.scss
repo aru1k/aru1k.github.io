@@ -20,6 +20,7 @@
   font-style: normal;
   font-display: swap;
 	font-feature-settings: "zero" on, "calt" on, "cv01" on;
+	font-variant-ligatures: common-ligatures contextual;
 }
 
 @font-face {
@@ -29,6 +30,7 @@
   font-style: italic;
   font-display: swap;
 	font-feature-settings: "zero" on, "calt" on, "cv01" on;
+	font-variant-ligatures: common-ligatures contextual;
 }
 
 html {
