@@ -202,7 +202,7 @@ img {
 
 .site-description {
   margin: -5px 0 0 0;
-  color: $lightGray;
+  color: $white;
   font-size: 16px;
 
   @include mobile {
@@ -254,8 +254,8 @@ nav {
 .post {
   blockquote {
     margin: 1.8em .8em;
-    border-left: 2px solid $lightGray;
-    padding: 0.1em 1em;
+    border-left: 2px solid $gray;
+    padding: 0em 1em;
     color: $white;
     font-size: 18px;
     font-style: italic;
